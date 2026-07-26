@@ -21,6 +21,9 @@
 npm-debug.log*
 .env*.local
 
-# index.html
+# python
+__pycache__/
+*.pyc
+
 # services.html
 # contact.html
