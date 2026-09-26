@@ -833,9 +833,20 @@ h4 {
   transition: border-color var(--transition), box-shadow var(--transition);
 }
 
+a.contact-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .contact-card:hover {
   border-color: var(--color-accent);
   box-shadow: var(--shadow-sm);
+}
+
+a.contact-card:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .contact-card__icon {
@@ -864,14 +875,13 @@ h4 {
   margin-bottom: var(--space-1);
 }
 
-.contact-card a,
-.contact-card p {
+.contact-card span {
   color: var(--color-text);
   font-weight: 500;
   font-size: 1rem;
 }
 
-.contact-card a:hover {
+.contact-card:hover span {
   color: var(--color-accent);
 }
 
