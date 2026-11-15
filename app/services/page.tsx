@@ -5,7 +5,7 @@ import { ServiceGrid } from "@/components/ServiceGrid";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Repair services from Minna Stove Repair — pressure cooker, mixi, gas stove, pipe installation, and more for home and commercial kitchens.",
+    "Repair services from Minna Stove Repair — pressure cooker, mixi, gas stove, pipe installation, gas shawarma machines, and more for home and commercial kitchens.",
 };
 
 export default function ServicesPage() {

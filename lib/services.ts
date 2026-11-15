@@ -4,7 +4,8 @@ export type ServiceId =
   | "mixi-jar"
   | "fry-pan"
   | "gas-stove"
-  | "pipe-install";
+  | "pipe-install"
+  | "gas-shawarma";
 
 export type ServiceGroup = "appliance" | "gas";
 
@@ -84,6 +85,17 @@ export const SERVICES: Service[] = [
     image: "/images/services/service-pipe-install.png",
     group: "gas",
     whatsappMessage: "Hello, I need gas stove pipe installation service.",
+  },
+  {
+    id: "gas-shawarma",
+    title: "Gas Shawarma Machine Repairing",
+    shortDescription:
+      "Repair for vertical commercial gas shawarma machines — burners, rotisserie motor, gas valves, and spit.",
+    detailDescription:
+      "On-site repair for hotel and restaurant shawarma machines near Kodungallur: burner service, rotisserie motor fixes, gas valve and connection checks, and spit alignment.",
+    image: "/images/services/service-gas-shawarma.png",
+    group: "gas",
+    whatsappMessage: "Hello, I need gas shawarma machine repairing service.",
   },
 ];
 
